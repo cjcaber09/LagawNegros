@@ -1,9 +1,13 @@
 import React from 'react'
-import LoginCard from '../components/loginCard'
+import Features from '../components/Features';
+import Hero from '../components/Hero'
 const home = () => {
   return (
-    <div className='w-100 bg-black '>
-      <LoginCard/>
+    <div className='grid'>
+      <div>
+      <Hero/>
+      <Features/>
+      </div>
     </div>
   )
 }

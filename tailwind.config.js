@@ -12,7 +12,8 @@ module.exports = {
       text: '#FFFFFC',
       hoveredText:'#6CCFF6',
       searchbox: '#252538'
-    }
+    },
+    fontFamily:'Nunito'
   },
   plugins: [],
 }
